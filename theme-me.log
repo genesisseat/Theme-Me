@@ -1,0 +1,8 @@
+2026-07-06 18:25:26,984 - INFO - Enter theme ID/Name to apply (or enter to go back)
+2026-07-06 18:25:31,538 - INFO - Enter custom username (default: User):
+2026-07-06 18:25:34,769 - INFO - Enter custom team name (default: Termux):
+2026-07-06 18:25:36,514 - INFO - Applying theme: genesTheme1...
+2026-07-06 18:25:38,544 - INFO - The process completed without any issues
+2026-07-06 18:25:38,544 - INFO - Theme 'genesTheme1' applied successfully!
+2026-07-06 18:25:55,956 - ERROR - Invalid choice!
+2026-07-06 18:25:57,428 - ERROR - Invalid choice!

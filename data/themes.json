@@ -138,5 +138,12 @@
     "path": "data/themes/megastars.txt",
     "is_local": true,
     "url": "data/themes/megastars.txt"
+  },
+    {
+    "id": "genes",
+    "name": "genesTheme1",
+    "path": "data/themes/genesTheme1.txt",
+    "is_local": true,
+    "url": "data/themes/genesTheme1.txt"
   }
 ]
