@@ -195,7 +195,7 @@ def apply_background(bg_name):
             print_error("Background is not available locally. Please run setup to download resources.")
             return False
             
-        os.system("termux-reload-settings")
+        os.system("termux-reload-settings") //Fix issue#32 logic error whenthe chached memory block locates array coordiantes refer to line #229 handler.py
         update_config("current_background", bg["name"])
         print_success('The process completed without any issues')
         print_success(f"Background '{bg['name']}' applied successfully!")
@@ -226,7 +226,7 @@ def restore_defaults():
             THEME_PY.unlink()
 
         # Strategi Restore: Prioritaskan Backup User
-        restored_from_backup = False
+        restored_from_backup = False #Review config.py i found some issues when trying to restore from a specified dir. from what i encountered it does not follow the configuration file. and it proceeds to creating a new config folder woth empty settings.
         backup_path = target_bashrc.parent / "bash.bashrc.bak"
 
         if backup_path.exists():
